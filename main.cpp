@@ -11,7 +11,7 @@ using namespace std;
 unsigned short UEport = 50001;//这是ANC和UE通信的端口
 unsigned short srcport = 50000;//这是ANC和PCC通信的端口
 unsigned short destport = 50000;//这是ANC向PCC发送消息的目的端口
-string PCCaddr = "162.106.85.198";
+string PCCaddr = "162.106.85.198";//PCC address
 string UEaddr = "162.105.85.198";
 
 void *UE_ANC(void*){
